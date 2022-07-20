@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scope and conditionals</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li>Item-1</li>
+        <li>Item-2</li>
+        <li>Item-3</li>
+        <li>Item-4</li>
+        <li>Item-5</li>
+      </ul>
+    </div>
+    <script>
+      //   // var is global scoped and let is blocked scope
+      //   let string1 = "this is string1";
+      //   console.log(string1);
+      //   let a = "u";
+      //   {
+      //     let b = "c";
+      //     console.log(a);
+      //   }
+      //   console.log(a);
+
+      //   //const cannot be changed
+      //   const area= 56;
+      //   area= 67;
+
+    //   let age =4;
+    //   // if(age>18){
+    //   //     console.log("you can drink water");
+    //   // }
+    //   // else{
+    //   //     console.log("you can drink coldrink");
+    //   // }
+
+    //   //conditional opearator
+    //   console.log(age > 18 ? "you can drink water" : age<5 ? "you can drink colddrink":"you canot drink anything");
+    const cups =1;
+    switch(cups){
+        case 1: 
+        console.log("this is cup1");
+        break;
+        case 2: 
+        console.log("this is cup2");
+        break;
+        case 45: 
+        console.log("this is cup45");
+        break;
+        case 3: 
+        console.log("this is cup3");
+        //break is used to break the iteration
+        break;
+        default:
+            console.log("this is other");
+            break;
+    }
+    </script>
+  </body>
+</html>
